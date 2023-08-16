@@ -1,0 +1,48 @@
+.route{
+margin-top: 65px !important;
+}
+.movieDiv{
+  margin: 2%;
+}
+.movieTital{
+ height: 3em; 
+}
+.draw{
+background-color: white !important;
+}
+
+.movie-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  display: grid;
+  padding-top:10px ;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px;
+}
+
+.movie-card {
+ 
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  /* padding: 10px; */
+  cursor: pointer;
+}
+
+.movie-card img 
+{
+  margin: 2%;
+  border-radius: 15px;
+  width: 96%;
+  height: 270px;
+}
+
+.movie-info {
+  margin-top: 10px;
+}
+
+.movie-description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
